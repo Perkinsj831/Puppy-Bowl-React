@@ -60,7 +60,7 @@ export default function AllPlayers() {
                 <h2>{player.name}</h2>
                 <h3>{player.breed}</h3>
                 <img src={player.imageUrl}/>
-            <button id="button1" onClick={() => navigate(`/players/${player.id}`)}>See Details</button>
+            <button id="button1" onClick={() => navigate(`/players/${player.id}`)}>Player View</button>
             <button id="button2" onClick={() => deletePuppy(player.id)}>Delete Player</button>
             </article>
             </>

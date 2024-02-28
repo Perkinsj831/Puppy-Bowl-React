@@ -26,10 +26,12 @@ export default function SinglePlayer() {
     }
 
     return (
-        <article key={player.id}>
-                <h2>{player.name}</h2>
-                <h3>{player.breed}</h3>
-                <img src={player.imageUrl}/>
-        </article>
+        <div className="singlePlayerView">
+            <article className="playerSingle" key={player.id}>
+                    <h2>{player.name}</h2>
+                    <h3>{player.breed}</h3>
+                    <img src={player.imageUrl}/>
+            </article>
+        </div>
     )
 }

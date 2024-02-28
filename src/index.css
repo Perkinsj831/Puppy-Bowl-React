@@ -53,11 +53,31 @@ header nav>a.active {
     box-shadow: 5px 5px 5px gold;
 }
 
+.playerSingle {
+    background-color: white;
+    margin: 20px;
+    width: 300px;
+    font-size: .7rem;
+    padding: 1%;
+    box-shadow: 5px 5px 5px gold;
+}
+
+.playerSingle>img {
+    width: 100%
+}
+
+.singlePlayerView {
+    display: flex;
+    justify-content: center;
+}
+
 #main{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+
 
 .player>img {
     width: 100%;
