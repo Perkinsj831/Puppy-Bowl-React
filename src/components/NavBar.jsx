@@ -4,7 +4,7 @@ export default function NavBar() {
     return( 
         <header>
             <section>
-                <h1 id="header">2024 Puppy BowlBowl🏆</h1>
+                <h1 id="header">2024 Puppy Bowl🏆</h1>
             </section>
 
             <nav>
